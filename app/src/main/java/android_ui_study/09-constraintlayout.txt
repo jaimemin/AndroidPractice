@@ -1,0 +1,50 @@
+ConstraintLayout
+- 제약을 통해서 뷰를 배치하는 컨테이너 뷰
+- RelativeLayout에서 할 수 있는 모든 것이 가능하다
+- 기능이 많음
+- 반대 방향으로 작용하는 두 개의 제약을 동시에 적용하면 두 제약의 가운데에 배치된다.
+
+1> 상대적 위치 배치 (RelativeLayout 기능)
+    - layout_constraint + 제약 이름
+    - layout_constraintLeft_toLeftOf
+        - B Left_toLeftOf A
+            - Left -> 속성이 적용되는 뷰의 Left
+            - toLeftOf -> Of에 올 뷰의 Left
+        - A가 될 수 있는 것들
+            - 아이디로 설정된 뷰들
+            - parent
+                - B Left_toLeftOf parent
+                    - B의 왼쪽을 parent의 왼쪽으로 설정
+
+2> 여백
+    - 해당 방향으로 여백을 두기 위해서는 반드시 그 쪽 방햘에 제약이 있어야 함
+    - layout_marginLeft = 100dp
+        - layout_constraintLeft_toLeftOf = parent
+        - 위와 같이 left 제약이 있어야 설정 가능
+
+3> Bias(치우침)
+    - layout_constraintHorizontal_bias
+    - layout_constraintVertical_bias
+    - 값
+        - 비율로 설정
+        - 1인 경우 100% 치우침
+        - 0.5인 경우 50% 치우침 (변화 없음)
+
+4> 비율로 설정하는 방법 -> LinearLayout Weight
+    - layout_constraintHorizontal_weight
+    - layout_constraintVertical_weight
+    - 비율을 주려는 가로/세로 크기는 0dp
+
+5> 원형 위치 설정 (Circular Positioning)
+    - layout_constraintCircle: 기준을 정한다
+    - layout_constraintCircleRadius: 두 중심 간의 거리
+    - layout_constraintCircleAngle: 각
+
+6> Chain 속성
+- Spread Chain
+- Spread Inside
+- Packed
+
+언어의 특징
+- LTR(Left to Right) : 글짜를 적는 방향이 왼쪽에서 오른쪽 -> Start = Left, End = Right
+- RTL(Right to Left) : 글자를 적는 방향이 오른쪽에서 왼쪽 -> Start = Right, End = Left
