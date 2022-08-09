@@ -14,6 +14,8 @@
         <entry key="app/src/main/res/layout/activity_intent_two.xml" value="0.16485507246376813" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.31567028985507245" />
         <entry key="app/src/main/res/layout/activity_master_application.xml" value="0.16510416666666666" />
+        <entry key="app/src/main/res/layout/activity_melon.xml" value="0.2151268115942029" />
+        <entry key="app/src/main/res/layout/activity_melon_detail.xml" value="0.17916666666666667" />
         <entry key="app/src/main/res/layout/activity_one.xml" value="0.17916666666666667" />
         <entry key="app/src/main/res/layout/activity_resource.xml" value="0.16510416666666666" />
         <entry key="app/src/main/res/layout/activity_test.xml" value="0.35260416666666666" />
@@ -36,6 +38,7 @@
         <entry key="app/src/main/res/layout/linearlayout.xml" value="0.25" />
         <entry key="app/src/main/res/layout/linearlayout_05.xml" value="0.35260416666666666" />
         <entry key="app/src/main/res/layout/margin_padding.xml" value="0.3515625" />
+        <entry key="app/src/main/res/layout/melon_item.xml" value="0.2151268115942029" />
         <entry key="app/src/main/res/layout/relativelayout.xml" value="0.3515625" />
         <entry key="app/src/main/res/layout/relativelayout2.xml" value="0.3515625" />
         <entry key="app/src/main/res/layout/resource.xml" value="0.3515625" />

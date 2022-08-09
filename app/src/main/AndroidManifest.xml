@@ -15,9 +15,15 @@
         android:theme="@style/Theme.AndroidPractice"
         tools:targetApi="31">
         <activity
-            android:name=".YoutubeItemActivity"
-            android:screenOrientation="landscape"
+            android:name=".MelonDetailActivity"
             android:exported="true" />
+        <activity
+            android:name=".YoutubeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YoutubeItemActivity"
+            android:exported="true"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".ResourceActivity"
             android:exported="false" />
@@ -31,7 +37,7 @@
             android:name=".AsyncActivity"
             android:exported="false" />
         <activity
-            android:name=".YoutubeActivity"
+            android:name=".MelonActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
