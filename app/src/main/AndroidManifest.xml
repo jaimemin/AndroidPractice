@@ -15,6 +15,9 @@
         android:theme="@style/Theme.AndroidPractice"
         tools:targetApi="31">
         <activity
+            android:name=".MelonActivity"
+            android:exported="false" />
+        <activity
             android:name=".MelonDetailActivity"
             android:exported="true" />
         <activity
@@ -37,7 +40,7 @@
             android:name=".AsyncActivity"
             android:exported="false" />
         <activity
-            android:name=".MelonActivity"
+            android:name=".InstaJoin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
