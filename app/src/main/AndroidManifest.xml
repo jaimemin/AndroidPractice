@@ -15,15 +15,6 @@
         android:theme="@style/Theme.AndroidPractice"
         tools:targetApi="31">
         <activity
-            android:name=".InstaMainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".InstaLoginActivity"
-            android:exported="true" />
-        <activity
-            android:name=".InstaJoinActivity"
-            android:exported="true" />
-        <activity
             android:name=".MelonActivity"
             android:exported="false" />
         <activity
@@ -49,7 +40,7 @@
             android:name=".AsyncActivity"
             android:exported="false" />
         <activity
-            android:name=".InstaSplashActivity"
+            android:name=".MainActivity"
             android:noHistory="true"
             android:exported="true">
             <intent-filter>
@@ -75,9 +66,6 @@
             android:exported="false" />
         <activity
             android:name=".Intent_Two"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".Activity_01"
